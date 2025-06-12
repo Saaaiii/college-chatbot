@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+      "responses": [
+        "👋 Hello! Welcome to our college assistant. How can I help you today?",
+        "<img src='/static/welcome.jpg' width='300' alt='Welcome Desk'>",
+        "<img src='/static/ciet.png' width='300' alt='College Entrance'>"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "List of courses", "Available programs"],
+      "responses": [
+        "🎓 We offer various programs:\n- B.Tech: CSE, ECE, Mechanical, Civil, AI & DS\n- M.Tech: Embedded Systems, Structural Engineering\n- MBA & MCA with top specializations.",
+        "<img src='/static/courses.png' width='300' alt='Courses'>",
+        "<img src='/static/cse.png' width='300' alt='Specializations'>"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["Admission process", "How to get admitted?", "Admission steps"],
+      "responses": [
+        "📝 Admission process:\n1. Fill online application\n2. Upload documents\n3. Attend counseling\n4. Confirm your seat. Visit our [admissions page](#) for details.",
+        "<img src='/static/admission-process.jpeg' width='300' alt='Admission Steps'>",
+        "<img src='/static/application_form.jpeg' width='300' alt='Admission Form'>"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["Fees structure", "Tuition cost", "How much are the fees?"],
+      "responses": [
+        "💰 Fee Details:\n- B.Tech: ₹80,000–₹1,20,000/year\n- M.Tech/MBA/MCA: ₹60,000–₹90,000/year\nCheck the official site for more.",
+        "<img src='/static/fees-hostel.png' width='300' alt='Fee Structure'>",
+        "<img src='/static/fees-structures.png' width='300' alt='Payment Methods'>"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["Placement record", "Companies visiting", "Job opportunities"],
+      "responses": [
+        "🏆 Our placement rate is 95% with top recruiters like TCS, Infosys, Deloitte, and more. We offer training, mock interviews, and resume support.",
+        "<img src='/static/placements.png' width='300' alt='Placements'>",
+        "<img src='/static/top.jpeg' width='300' alt='Top Recruiters'>"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Hostel facilities", "Boys hostel", "Girls hostel"],
+      "responses": [
+        "🏠 Hostel Facilities:\n- Boys & Girls hostels\n- Wi-Fi, mess, laundry, furnished rooms\n- Secure and comfortable",
+        "<img src='/static/hostel.jpg' width='300' alt='Boys Hostel'>",
+        "<img src='/static/girls-hostel.jpeg' width='300' alt='Hostel Room Interior'>"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": ["College events", "Cultural programs", "Tech fest"],
+      "responses": [
+        "🎉 Our major events include:\n- Cultural Fest\n- Tech Symposium\n- Alumni Meet and more!",
+        "<img src='/static/students.webp' width='300' alt='Cultural Fest'>",
+        "<img src='/static/events.webp' width='300' alt='Tech Symposium'>"
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": ["Campus life", "Student activities", "Student clubs"],
+      "responses": [
+        "🤝 Vibrant student life with:\n- Clubs: Coding, Dance, Robotics, Photography\n- Fun events and workshops\n- Peer groups and sports",
+        "<img src='/static/student_life.webp' width='300' alt='Student Life'>",
+        "<img src='/static/campus frds.webp' width='300' alt='Campus Friends'>"
+      ]
+    }
+  ]
+}
